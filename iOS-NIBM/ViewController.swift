@@ -65,19 +65,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
-    //    self.view.addSubview(view1)
-        
-        //view.addSubview(logoImage)
-       // view.addSubview(titleLabel)
-        
         titleLabel.text = "iOS Development"
         descriptionLabel.text = "Swift and SwiftUI"
         dateLabel.text = "22/10/2022"
         
         viewHolder.insertArrangedSubview(titleLabel, at: 0)
         viewHolder.insertArrangedSubview(descriptionLabel, at: 1)
+        viewHolder.insertArrangedSubview(dateLabel, at: 2)
         viewHolderMain.insertArrangedSubview(logoImage, at: 0)
         viewHolderMain.insertArrangedSubview(viewHolder, at: 1)
         

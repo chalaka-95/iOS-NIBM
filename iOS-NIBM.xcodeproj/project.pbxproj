@@ -12,6 +12,8 @@
 		B0737A3D2922373A00B58FA3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B0737A3C2922373A00B58FA3 /* SnapKit */; };
 		B0737A3F2922385D00B58FA3 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A3E2922385D00B58FA3 /* MoviesModel.swift */; };
 		B0737A41292238B000B58FA3 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A40292238B000B58FA3 /* MovieDetailsViewController.swift */; };
+		B0737A432922429D00B58FA3 /* RickAndMothiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A422922429D00B58FA3 /* RickAndMothiData.swift */; };
+		B0737A452922430400B58FA3 /* RickAndMorthiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737A442922430400B58FA3 /* RickAndMorthiViewController.swift */; };
 		B086E815292113670087F2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086E814292113670087F2DA /* AppDelegate.swift */; };
 		B086E817292113670087F2DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086E816292113670087F2DA /* SceneDelegate.swift */; };
 		B086E819292113670087F2DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086E818292113670087F2DA /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		B0737A36292235AA00B58FA3 /* TableDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDemoViewController.swift; sourceTree = "<group>"; };
 		B0737A3E2922385D00B58FA3 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
 		B0737A40292238B000B58FA3 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		B0737A422922429D00B58FA3 /* RickAndMothiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMothiData.swift; sourceTree = "<group>"; };
+		B0737A442922430400B58FA3 /* RickAndMorthiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMorthiViewController.swift; sourceTree = "<group>"; };
 		B086E811292113670087F2DA /* iOS-NIBM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-NIBM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B086E814292113670087F2DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B086E816292113670087F2DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				B0737A36292235AA00B58FA3 /* TableDemoViewController.swift */,
 				B0737A3E2922385D00B58FA3 /* MoviesModel.swift */,
 				B0737A40292238B000B58FA3 /* MovieDetailsViewController.swift */,
+				B0737A422922429D00B58FA3 /* RickAndMothiData.swift */,
+				B0737A442922430400B58FA3 /* RickAndMorthiViewController.swift */,
 			);
 			path = "iOS-NIBM";
 			sourceTree = "<group>";
@@ -151,11 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0737A432922429D00B58FA3 /* RickAndMothiData.swift in Sources */,
 				B0737A37292235AA00B58FA3 /* TableDemoViewController.swift in Sources */,
 				B086E819292113670087F2DA /* ViewController.swift in Sources */,
 				B0737A41292238B000B58FA3 /* MovieDetailsViewController.swift in Sources */,
 				B0737A3F2922385D00B58FA3 /* MoviesModel.swift in Sources */,
 				B086E815292113670087F2DA /* AppDelegate.swift in Sources */,
+				B0737A452922430400B58FA3 /* RickAndMorthiViewController.swift in Sources */,
 				B086E817292113670087F2DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
